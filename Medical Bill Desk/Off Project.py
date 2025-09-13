@@ -8,7 +8,7 @@ import random
 import subprocess                                           #pip install subprocess
 import os
 
-mydb=ms.connect(host='localhost',user='root',passwd='1734',database='project')
+mydb=ms.connect(host='localhost',user='root',passwd='****',database='project')
 
 c=mydb.cursor()
 
@@ -265,6 +265,7 @@ def Menu():
     
     
 Menu()
+
 
 
 
